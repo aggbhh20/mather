@@ -28,7 +28,7 @@ namespace Bolens
                 {
                     exit();
                 }
-                else if (userInput == null)
+                if (userInput == "")
                 {
                     Console.WriteLine("you didnt type anything!");
                 }
